@@ -1,45 +1,13 @@
 [user]
-  name = Kent C. Dodds
-  email = me+github@kentcdodds.com
+  name = Alper ALIN
+  email = alperalin@gmail.com
 
-[pull]
-  rebase = true
-[branch]
-  autosetuprebase = always
-[alias]
-  rh = reset --hard HEAD
-  b = checkout -b
-  co = checkout
-  ca = commit -a --verbose
-  cp = cherry-pick
-  amend = commit -a --amend --no-edit
-  unstage = reset --soft HEAD
-  cdiff = "!git diff $1 $1^"
-[push]
-  default = current
 [core]
-  pager = delta --theme="night-owlish"
-	excludesfile = /Users/kentcdodds/.gitignore_global
-[interactive]
-    diffFilter = delta --color-only
+	# Use custom `.gitignore`
+	excludesfile = /Users/alperalin/.gitignore_global
 [color]
-	ui = true
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+	# Use colors in Git commands that are capable of colored output when
+	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+	ui = auto
 [init]
 	defaultBranch = main
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true

@@ -1,3 +1,3 @@
 # dotfiles
 
-Kent's Doddfiles... get it dot, dodd; yeah you get it.
+**Note:** Forked From [Kent's dotfiles](https://github.com/kentcdodds/dotfiles/tree/main)
