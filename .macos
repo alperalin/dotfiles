@@ -65,7 +65,7 @@ ln -s "${HOME}/dotfiles/.gitconfig" "${HOME}/.gitconfig"
 echo "making system modifications:"
 
 # Make Chrome Two finger swipe for back and forward
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool TRUE
+# defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool TRUE
 
 
 ###############################################################################
