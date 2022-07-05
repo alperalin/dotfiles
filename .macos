@@ -45,8 +45,8 @@ brew install --cask alfred iterm2 google-chrome firefox brave-browser visual-stu
 vlc zoom microsoft-teams betterzip imageoptim \
 suspicious-package todoist docker postman sequel-ace local 
 
-echo "installing oh my zsh"
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# echo "installing oh my zsh"
+# $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # echo "Generating an RSA token for GitHub"
 # mkdir -p ~/.ssh
